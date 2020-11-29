@@ -14,7 +14,8 @@ const express = require('express'),
         { id: 3, firstName: 'Jennifer', lastName: 'Wu', phone: '(415) 852-1463' },
         { id: 4, firstName: 'Anup', lastName: 'Gupta', phone: '(415) 852-6398' },
         { id: 5, firstName: 'Caroline', lastName: 'Kingsley', phone: '(415) 875-3654' },
-        { id: 6, firstName: 'Jonathan', lastName: 'Bradley', phone: '(415) 888-5522' }
+        { id: 6, firstName: 'Jonathan', lastName: 'Bradley', phone: '(415) 888-5522' },
+        { id: 7, firstName: 'Matias', lastName: 'Kruk', phone: '(415) 888-5522' }
     ];
 
 if (ENV === 'production') {
