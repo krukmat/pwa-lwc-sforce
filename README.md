@@ -9,6 +9,7 @@ This sample application demonstrates how to buid an app that works offline and c
 
 1. Clone this repository
     ```
+    git clone https://github.com/krukmat/pwa-lwc-sforce
     cd lwc-pwa-demo
     ```
 
