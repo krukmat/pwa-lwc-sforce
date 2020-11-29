@@ -1,6 +1,6 @@
 # PWA with Lightning Web Components and JSForce for accessing data
 
-Sample application showing a Progressive Web App (PWA) built with [Lightning Web Components](https://lwc.dev) and the [Workbox](https://developers.google.com/web/tools/workbox) toolkit. The intention is to access real data using [jsforce] (https://jsforce.github.io/).
+Sample application showing a Progressive Web App (PWA) built with [Lightning Web Components](https://lwc.dev) and the [Workbox](https://developers.google.com/web/tools/workbox) toolkit. The intention is to access real data using [JSForce](https://jsforce.github.io/).
 
 This sample application demonstrates how to buid an app that works with PWA and can be installed on your desktop or on the home screen of your local device. It also has access to real SF account data.
 
