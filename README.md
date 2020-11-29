@@ -4,7 +4,7 @@ Sample application showing a Progressive Web App (PWA) built with [Lightning Web
 
 This sample application demonstrates how to buid an app that works with PWA and can be installed on your desktop or on the home screen of your local device. It also has access to real SF account data.
 
-you can check the application [live] (https://lwc-wpa-demo.herokuapp.com/) 
+you can check the application [Live](https://lwc-wpa-demo.herokuapp.com/).
 
 
 ## Installation Instructions
