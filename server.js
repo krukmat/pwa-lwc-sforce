@@ -51,8 +51,9 @@ app.get('/api/contacts', (req, res) => {
           if (err) { return console.error(err); }
           console.log("total : " + result.totalSize);
           console.log("fetched : " + result.records.length);
+          res.send(result.records);
         });
-        res.send(result.records);
+        
         });
     });
 
