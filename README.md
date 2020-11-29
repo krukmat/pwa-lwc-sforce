@@ -1,8 +1,10 @@
-# PWA with Lightning Web Components and Workbox
+# PWA with Lightning Web Components and JSForce
 
-Sample application showing a Progressive Web App (PWA) built with [Lightning Web Components](https://lwc.dev) and the [Workbox](https://developers.google.com/web/tools/workbox) toolkit.
+Sample application showing a Progressive Web App (PWA) built with [Lightning Web Components](https://lwc.dev) and the [Workbox](https://developers.google.com/web/tools/workbox) toolkit. The intention is to access real data using [jsforce] (https://jsforce.github.io/).
 
-This sample application demonstrates how to buid an app that works offline and can be installed on your desktop or on the home screen of your local device.
+This sample application demonstrates how to buid an app that works with PWA and can be installed on your desktop or on the home screen of your local device. It also has access to real SF account data.
+
+you can check the application [live] (https://lwc-wpa-demo.herokuapp.com/) 
 
 
 ## Installation Instructions
@@ -17,6 +19,12 @@ This sample application demonstrates how to buid an app that works offline and c
     ```
     npm install
     ```
+
+1. Configure the SF Credentials:
+```
+server.js:
+username = 'youruser@org.com', password = 'password+token';
+```
 
 1. Build the application
     ```
