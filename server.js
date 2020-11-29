@@ -18,8 +18,7 @@ const express = require('express'),
         { id: 6, firstName: 'Jonathan', lastName: 'Bradley', phone: '(415) 888-5522' },
         { id: 7, firstName: 'Matias', lastName: 'Kruk', phone: '(415) 888-5522' }
     ],
-    username = 'matias@kforce.com';
-    password = 'U8rxC4iu3P2fMHL59YY8SvGtYQVa8QJc8DJ8jlIc';
+    username = 'matias@kforce.com', password = 'U8rxC4iu3P2fMHL59YY8SvGtYQVa8QJc8DJ8jlIc';
 
 if (ENV === 'production') {
     app.use((req, res, next) => {
