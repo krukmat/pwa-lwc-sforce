@@ -16,7 +16,7 @@ module.exports = {
             skipWaiting: true,
             runtimeCaching: [
                 {
-                    urlPattern: new RegExp('api/contacts$'),
+                    urlPattern: new RegExp('api/accounts$'),
                     handler: 'StaleWhileRevalidate'
                 }
             ]

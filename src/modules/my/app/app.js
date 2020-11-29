@@ -1,16 +1,16 @@
 import { LightningElement } from 'lwc';
 
-const CONTACTS_URL = 'api/contacts';
+const ACCOUNTS_URL = 'api/accounts';
 
 export default class App extends LightningElement {
 
-    contacts = [];
+    accounts = [];
 
     connectedCallback() {
-        fetch(CONTACTS_URL).then(response => {
+        fetch(ACCOUNTS_URL).then(response => {
             return response.json();
-        }).then( contacts => {
-            this.contacts = contacts;
+        }).then( accounts => {
+            this.accounts = accounts;
         });
     }
 
