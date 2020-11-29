@@ -1,9 +1,9 @@
 <template>
     <div class="content">
         <h1>Recent Accounts</h1>
-        <template for:each={contacts} for:item="contact">
-            <div key={contact.id} class="contact">
-                <p>{contact.Name}</p>
+        <template for:each={account} for:item="account">
+            <div key={account.id} class="contact">
+                <p>{account.Name}</p>
             </div>
         </template>
     </div>
