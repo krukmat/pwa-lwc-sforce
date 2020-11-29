@@ -1,4 +1,4 @@
-# PWA with Lightning Web Components and JSForce
+# PWA with Lightning Web Components and JSForce for accessing data
 
 Sample application showing a Progressive Web App (PWA) built with [Lightning Web Components](https://lwc.dev) and the [Workbox](https://developers.google.com/web/tools/workbox) toolkit. The intention is to access real data using [jsforce] (https://jsforce.github.io/).
 
@@ -41,3 +41,5 @@ username = 'youruser@org.com', password = 'password+token';
     ```
 
 1. Access the application at [http://localhost:3001](http://localhost:3001)
+
+1. If you need, it also possible to configure a heroku instance and run it.
