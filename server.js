@@ -8,7 +8,7 @@ const express = require('express'),
     let ENV = process.env.NODE_ENV || 'development',
     HOST = process.env.HOST || 'localhost',
     PORT = process.env.PORT || 3001,
-    username = 'matias@kforce.com', password = 'U8rxC4iu3P2fMHL59YY8SvGtYQVa8QJc8DJ8jlIc';
+    username = 'youruser@org.com', password = 'password+token';
 
 if (ENV === 'production') {
     app.use((req, res, next) => {
